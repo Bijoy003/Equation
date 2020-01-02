@@ -12,37 +12,34 @@ namespace Equation
 {
     public partial class GameMode : Form
     {
-        public GameMode()
+        public int dif, mod;
+        public GameMode(int di,int mo)
         {
             InitializeComponent();
-        }
-        public string Mode = "MissingOperator";
-
-        public string getMode()
-        {
-            return Mode;
+            dif = di;
+            mod = mo;
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            Mode = "MissingOperator";
-            var f = new MainMenu();
-            this.Hide();
+            mod = 1;
+            var f = new MainMenu(dif, mod);
+            //this.Hide();
             f.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Mode = "MissingVariable";
-            var f = new MainMenu();
-            this.Hide();
+            mod = 2;
+            var f = new MainMenu(dif, mod);
+            //this.Hide();
             f.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Mode = "MissingResult";
-            var f = new MainMenu();
-            this.Hide();
+            mod = 3;
+            var f = new MainMenu(dif, mod);
+            //this.Hide();
             f.Show();
         }
 
@@ -53,7 +50,7 @@ namespace Equation
 
         private void button4_Click(object sender, EventArgs e)
         {
-            var f = new MainMenu();
+            var f = new MainMenu(dif, mod);
             this.Hide();
             f.Show();
         }

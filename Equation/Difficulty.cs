@@ -12,38 +12,35 @@ namespace Equation
 {
     public partial class Difficulty : Form
     {
-        public Difficulty()
+        public int dif, mod;
+        public Difficulty(int di,int mo)
         {
             InitializeComponent();
+            dif = di;
+            mod = mo;
         }
 
-        public string Diffi;
-
-        public string getDifficulty()
-        {
-            return Diffi;
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Diffi = "Easy";
-            var f = new MainMenu();
+            dif = 1;
+            var f = new MainMenu(dif,mod);
             this.Hide();
             f.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Diffi = "Medium";
-            var f = new MainMenu();
+            dif = 2;
+            var f = new MainMenu(dif,mod);
             this.Hide();
             f.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Diffi = "Hard";
-            var f = new MainMenu();
+            dif = 3;
+            var f = new MainMenu(dif,mod);
             this.Hide();
             f.Show();
         }
@@ -55,7 +52,7 @@ namespace Equation
 
         private void button4_Click(object sender, EventArgs e)
         {
-            var f = new MainMenu();
+            var f = new MainMenu(dif,mod);
             this.Hide();
             f.Show();
         }

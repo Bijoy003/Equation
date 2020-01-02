@@ -12,9 +12,17 @@ namespace Equation
 {
     public partial class StartOperator : Form
     {
-        public StartOperator()
+        public int dif, mod;
+        public StartOperator(int di,int mo)
         {
             InitializeComponent();
+            dif = di;
+            mod = mo;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

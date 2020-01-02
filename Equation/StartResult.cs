@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Equation
 {
-    public partial class About : Form
+    public partial class StartResult : Form
     {
         public int dif, mod;
-        public About(int di,int mo)
+        public StartResult(int di,int mo)
         {
             InitializeComponent();
             dif = di;
@@ -22,14 +22,7 @@ namespace Equation
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var f = new MainMenu(dif,mod);
-            this.Hide();
-            f.Show();
-        }
 
-        private void Exit_Click(object sender, EventArgs e)
-        {
-            Environment.Exit(0);
         }
     }
 }

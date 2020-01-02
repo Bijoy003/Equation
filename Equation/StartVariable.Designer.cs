@@ -1,6 +1,6 @@
 ﻿namespace Equation
 {
-    partial class StartOperator
+    partial class StartVariable
     {
         /// <summary>
         /// Required designer variable.
@@ -33,24 +33,24 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(427, 297);
+            this.button1.Location = new System.Drawing.Point(427, 280);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Done1";
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Done2";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // StartOperator
+            // StartVariable
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(924, 521);
+            this.ClientSize = new System.Drawing.Size(944, 501);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "StartOperator";
+            this.Name = "StartVariable";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "StartOperator";
+            this.Text = "StartVariable";
             this.ResumeLayout(false);
 
         }
