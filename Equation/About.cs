@@ -7,16 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Runtime.InteropServices;
 
 namespace Equation
 {
-    public partial class Loading : Form
+    public partial class About : Form
     {
-        public int dif=1,mod=1;
-        public Loading()
+        public int dif, mod;
+        public About(int di,int mo)
         {
             InitializeComponent();
+            dif = di;
+            mod = mo;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -26,16 +27,9 @@ namespace Equation
             f.Show();
         }
 
-        private void Loading_Load(object sender, EventArgs e)
+        private void Exit_Click(object sender, EventArgs e)
         {
-
-        }
-
-        int direction = 0;
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-
+            Environment.Exit(0);
         }
     }
 }
