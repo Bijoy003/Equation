@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace Equation
 {
@@ -22,6 +23,18 @@ namespace Equation
             var f = new MainMenu();
             this.Hide();
             f.Show();
+        }
+
+        private void Loading_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        int direction = 0;
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
         }
     }
 }
