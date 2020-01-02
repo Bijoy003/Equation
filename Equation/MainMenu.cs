@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Equation
 {
-    public partial class Loading : Form
+    public partial class MainMenu : Form
     {
-        public Loading()
+        public MainMenu()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            var f = new MainMenu();
-            this.Hide();
-            f.Show();
         }
     }
 }
