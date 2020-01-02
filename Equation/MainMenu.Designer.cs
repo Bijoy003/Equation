@@ -53,7 +53,7 @@
             this.About.TabIndex = 0;
             this.About.Text = "About";
             this.About.UseVisualStyleBackColor = true;
-            this.About.Click += new System.EventHandler(this.Exit_Click);
+            this.About.Click += new System.EventHandler(this.About_Click);
             // 
             // Difficulty
             // 
@@ -63,7 +63,7 @@
             this.Difficulty.TabIndex = 0;
             this.Difficulty.Text = "Difficulty";
             this.Difficulty.UseVisualStyleBackColor = true;
-            this.Difficulty.Click += new System.EventHandler(this.Exit_Click);
+            this.Difficulty.Click += new System.EventHandler(this.Difficulty_Click);
             // 
             // Game_Mode
             // 
@@ -73,7 +73,7 @@
             this.Game_Mode.TabIndex = 0;
             this.Game_Mode.Text = "Game Mode";
             this.Game_Mode.UseVisualStyleBackColor = true;
-            this.Game_Mode.Click += new System.EventHandler(this.Exit_Click);
+            this.Game_Mode.Click += new System.EventHandler(this.GameMode_Click);
             // 
             // Start
             // 
@@ -83,7 +83,7 @@
             this.Start.TabIndex = 0;
             this.Start.Text = "Start";
             this.Start.UseVisualStyleBackColor = true;
-            this.Start.Click += new System.EventHandler(this.Exit_Click);
+            this.Start.Click += new System.EventHandler(this.Start_Click);
             // 
             // MainMenu
             // 
