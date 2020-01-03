@@ -19,11 +19,14 @@ namespace Equation
             dif = di;
             mod = mo;
             score = sc;
+            ScoreLabel.Text = score.ToString();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            var f = new MainMenu(dif, mod);
+            this.Hide();
+            f.Show();
         }
     }
 }

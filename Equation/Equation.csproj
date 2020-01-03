@@ -114,6 +114,9 @@
     <EmbeddedResource Include="GameMode.resx">
       <DependentUpon>GameMode.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GameOver.en-US.resx">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GameOver.resx">
       <DependentUpon>GameOver.cs</DependentUpon>
     </EmbeddedResource>
