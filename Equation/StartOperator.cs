@@ -43,6 +43,56 @@ namespace Equation
             }
         }
 
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void inform_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Score_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Result_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ThirdVariable_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SecondVariable_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FirstVariable_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void Done_Click(object sender, EventArgs e)
         {
             string s1 = textBox1.Text, s2 = textBox2.Text;
@@ -312,7 +362,5 @@ namespace Equation
 
             return ret;
         }
-
-
     }
 }
