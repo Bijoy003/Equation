@@ -49,7 +49,7 @@
             // 
             this.FirstVariable.AutoSize = true;
             this.FirstVariable.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FirstVariable.Location = new System.Drawing.Point(204, 266);
+            this.FirstVariable.Location = new System.Drawing.Point(208, 237);
             this.FirstVariable.Name = "FirstVariable";
             this.FirstVariable.Size = new System.Drawing.Size(34, 37);
             this.FirstVariable.TabIndex = 0;
@@ -60,7 +60,7 @@
             // 
             this.SecondVariable.AutoSize = true;
             this.SecondVariable.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SecondVariable.Location = new System.Drawing.Point(358, 266);
+            this.SecondVariable.Location = new System.Drawing.Point(362, 237);
             this.SecondVariable.Name = "SecondVariable";
             this.SecondVariable.Size = new System.Drawing.Size(36, 37);
             this.SecondVariable.TabIndex = 0;
@@ -71,7 +71,7 @@
             // 
             this.ThirdVariable.AutoSize = true;
             this.ThirdVariable.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ThirdVariable.Location = new System.Drawing.Point(502, 266);
+            this.ThirdVariable.Location = new System.Drawing.Point(506, 237);
             this.ThirdVariable.Name = "ThirdVariable";
             this.ThirdVariable.Size = new System.Drawing.Size(36, 37);
             this.ThirdVariable.TabIndex = 0;
@@ -82,7 +82,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(568, 266);
+            this.label4.Location = new System.Drawing.Point(572, 237);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(37, 37);
             this.label4.TabIndex = 0;
@@ -93,7 +93,7 @@
             // 
             this.Result.AutoSize = true;
             this.Result.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Result.Location = new System.Drawing.Point(624, 266);
+            this.Result.Location = new System.Drawing.Point(628, 237);
             this.Result.Name = "Result";
             this.Result.Size = new System.Drawing.Size(36, 37);
             this.Result.TabIndex = 0;
@@ -103,7 +103,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(276, 262);
+            this.textBox1.Location = new System.Drawing.Point(280, 233);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(37, 44);
             this.textBox1.TabIndex = 0;
@@ -114,7 +114,7 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(429, 262);
+            this.textBox2.Location = new System.Drawing.Point(433, 233);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(37, 44);
             this.textBox2.TabIndex = 1;
@@ -127,7 +127,7 @@
             this.Score.AutoSize = true;
             this.Score.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Score.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.Score.Location = new System.Drawing.Point(499, 161);
+            this.Score.Location = new System.Drawing.Point(503, 132);
             this.Score.Name = "Score";
             this.Score.Size = new System.Drawing.Size(52, 55);
             this.Score.TabIndex = 0;
@@ -139,7 +139,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(321, 161);
+            this.label2.Location = new System.Drawing.Point(325, 132);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(183, 55);
             this.label2.TabIndex = 0;
@@ -153,7 +153,7 @@
             this.Done.FlatAppearance.BorderSize = 3;
             this.Done.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Done.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Done.Location = new System.Drawing.Point(314, 372);
+            this.Done.Location = new System.Drawing.Point(327, 363);
             this.Done.Name = "Done";
             this.Done.Size = new System.Drawing.Size(215, 76);
             this.Done.TabIndex = 2;
@@ -171,7 +171,7 @@
             // 
             this.inform.AutoSize = true;
             this.inform.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.inform.Location = new System.Drawing.Point(333, 324);
+            this.inform.Location = new System.Drawing.Point(336, 315);
             this.inform.Name = "inform";
             this.inform.Size = new System.Drawing.Size(0, 24);
             this.inform.TabIndex = 3;
