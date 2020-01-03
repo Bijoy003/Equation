@@ -40,61 +40,63 @@
             this.TimeRem = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.Done = new System.Windows.Forms.Button();
+            this.Exit = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstVariable
             // 
             this.FirstVariable.AutoSize = true;
-            this.FirstVariable.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FirstVariable.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FirstVariable.Location = new System.Drawing.Point(213, 289);
             this.FirstVariable.Name = "FirstVariable";
-            this.FirstVariable.Size = new System.Drawing.Size(32, 37);
+            this.FirstVariable.Size = new System.Drawing.Size(34, 37);
             this.FirstVariable.TabIndex = 0;
             this.FirstVariable.Text = "1";
             // 
             // SecondVariable
             // 
             this.SecondVariable.AutoSize = true;
-            this.SecondVariable.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SecondVariable.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SecondVariable.Location = new System.Drawing.Point(367, 289);
             this.SecondVariable.Name = "SecondVariable";
-            this.SecondVariable.Size = new System.Drawing.Size(32, 37);
+            this.SecondVariable.Size = new System.Drawing.Size(36, 37);
             this.SecondVariable.TabIndex = 0;
             this.SecondVariable.Text = "2";
             // 
             // ResultVariable
             // 
             this.ResultVariable.AutoSize = true;
-            this.ResultVariable.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResultVariable.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ResultVariable.Location = new System.Drawing.Point(511, 289);
             this.ResultVariable.Name = "ResultVariable";
-            this.ResultVariable.Size = new System.Drawing.Size(32, 37);
+            this.ResultVariable.Size = new System.Drawing.Size(36, 37);
             this.ResultVariable.TabIndex = 0;
             this.ResultVariable.Text = "3";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(577, 289);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(32, 37);
+            this.label4.Size = new System.Drawing.Size(37, 37);
             this.label4.TabIndex = 0;
             this.label4.Text = "=";
             // 
             // Result
             // 
             this.Result.AutoSize = true;
-            this.Result.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Result.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Result.Location = new System.Drawing.Point(633, 289);
             this.Result.Name = "Result";
-            this.Result.Size = new System.Drawing.Size(32, 37);
+            this.Result.Size = new System.Drawing.Size(36, 37);
             this.Result.TabIndex = 0;
             this.Result.Text = "4";
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(285, 285);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(37, 44);
@@ -104,7 +106,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(438, 285);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(37, 44);
@@ -115,42 +117,42 @@
             // Time
             // 
             this.Time.AutoSize = true;
-            this.Time.Font = new System.Drawing.Font("Arial Narrow", 54.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Time.Font = new System.Drawing.Font("Microsoft Sans Serif", 54.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Time.Location = new System.Drawing.Point(423, 50);
             this.Time.Name = "Time";
-            this.Time.Size = new System.Drawing.Size(70, 87);
+            this.Time.Size = new System.Drawing.Size(77, 83);
             this.Time.TabIndex = 0;
             this.Time.Text = "4";
             // 
             // Score
             // 
             this.Score.AutoSize = true;
-            this.Score.Font = new System.Drawing.Font("Arial Narrow", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Score.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Score.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Score.Location = new System.Drawing.Point(498, 176);
             this.Score.Name = "Score";
-            this.Score.Size = new System.Drawing.Size(47, 57);
+            this.Score.Size = new System.Drawing.Size(52, 55);
             this.Score.TabIndex = 0;
             this.Score.Text = "4";
             // 
             // TimeRem
             // 
             this.TimeRem.AutoSize = true;
-            this.TimeRem.Font = new System.Drawing.Font("Arial Narrow", 54.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TimeRem.Font = new System.Drawing.Font("Microsoft Sans Serif", 54.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TimeRem.Location = new System.Drawing.Point(423, 59);
             this.TimeRem.Name = "TimeRem";
-            this.TimeRem.Size = new System.Drawing.Size(70, 87);
+            this.TimeRem.Size = new System.Drawing.Size(77, 83);
             this.TimeRem.TabIndex = 0;
             this.TimeRem.Text = "4";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Narrow", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label2.Location = new System.Drawing.Point(349, 176);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(158, 57);
+            this.label2.Size = new System.Drawing.Size(183, 55);
             this.label2.TabIndex = 0;
             this.label2.Tag = " ";
             this.label2.Text = "Score :";
@@ -164,12 +166,34 @@
             this.Done.Text = "Done";
             this.Done.UseVisualStyleBackColor = true;
             // 
+            // Exit
+            // 
+            this.Exit.Location = new System.Drawing.Point(67, 334);
+            this.Exit.Name = "Exit";
+            this.Exit.Size = new System.Drawing.Size(75, 23);
+            this.Exit.TabIndex = 9;
+            this.Exit.Text = "Exit";
+            this.Exit.UseVisualStyleBackColor = true;
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(67, 22);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 8;
+            this.button4.Text = "Back";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // StartOperator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(924, 521);
+            this.Controls.Add(this.Exit);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.Done);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -206,5 +230,7 @@
         private System.Windows.Forms.Label TimeRem;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button Done;
+        private System.Windows.Forms.Button Exit;
+        private System.Windows.Forms.Button button4;
     }
 }

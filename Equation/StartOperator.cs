@@ -26,6 +26,18 @@ namespace Equation
 
         int a = 28, b = 5, c =3 , op1 = 4, op2 = 4 , res;
 
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            var f = new MainMenu(dif, mod);
+            this.Hide();
+            f.Show();
+        }
+
         //op1 = operator1 && op2 = operator2 which are unknown to user
         // + = 1 
         // - = 2

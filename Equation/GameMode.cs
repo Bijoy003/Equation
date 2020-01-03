@@ -23,7 +23,7 @@ namespace Equation
         {
             mod = 1;
             var f = new MainMenu(dif, mod);
-            //this.Hide();
+            this.Hide();
             f.Show();
         }
 
@@ -31,7 +31,7 @@ namespace Equation
         {
             mod = 2;
             var f = new MainMenu(dif, mod);
-            //this.Hide();
+            this.Hide();
             f.Show();
         }
 
@@ -39,7 +39,7 @@ namespace Equation
         {
             mod = 3;
             var f = new MainMenu(dif, mod);
-            //this.Hide();
+            this.Hide();
             f.Show();
         }
 

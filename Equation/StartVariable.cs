@@ -20,6 +20,18 @@ namespace Equation
             mod = mo;
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            var f = new MainMenu(dif, mod);
+            this.Hide();
+            f.Show();
+        }
+
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
 
