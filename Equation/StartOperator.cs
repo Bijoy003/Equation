@@ -70,8 +70,65 @@ namespace Equation
                 int firstPart = 0, secondParet = 0;
                 if (op1 == 4)
                 {
-                    firstPart = b / a;
+                    firstPart = a / b;
+                    if (op2== 4)
+                    {
+                        res = firstPart / c;
+                    }
+                    if (op2 == 3)
+                    {
+                        res = firstPart * c;
+                    }
+                    if (op2 == 2)
+                    {
+                        res = firstPart - c;
+                    }
+                    if (op2 == 1)
+                    {
+                        res = firstPart * c;
+                    }
                 }
+                if (op1 == 3)
+                {
+                    firstPart = a * b;
+                    if (op2 == 4)
+                    {
+                        res = firstPart / c;
+                    }
+                    if (op2 == 3)
+                    {
+                        res = firstPart * c;
+                    }
+                    if (op2 == 2)
+                    {
+                        res = firstPart - c;
+                    }
+                    if (op2 == 1)
+                    {
+                        res = firstPart * c;
+                    }
+                }
+                if (op2 == 4)
+                {
+                    secondParet = b / c;
+                    if (op1 == 4)
+                    {
+                        res = a / firstPart;
+                    }
+                    if (op1 == 3)
+                    {
+                        res = a * firstPart;
+                    }
+                    if (op1 == 2)
+                    {
+                        res = a - firstPart;
+                    }
+                    if (op1 == 1)
+                    {
+                        res = a + firstPart;
+                    }
+                }
+                
             }
             
         }
