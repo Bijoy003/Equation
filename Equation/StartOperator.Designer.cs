@@ -54,6 +54,7 @@
             this.FirstVariable.Size = new System.Drawing.Size(34, 37);
             this.FirstVariable.TabIndex = 0;
             this.FirstVariable.Text = "1";
+            this.FirstVariable.Click += new System.EventHandler(this.FirstVariable_Click);
             // 
             // SecondVariable
             // 
@@ -64,6 +65,7 @@
             this.SecondVariable.Size = new System.Drawing.Size(36, 37);
             this.SecondVariable.TabIndex = 0;
             this.SecondVariable.Text = "2";
+            this.SecondVariable.Click += new System.EventHandler(this.SecondVariable_Click);
             // 
             // ThirdVariable
             // 
@@ -74,6 +76,7 @@
             this.ThirdVariable.Size = new System.Drawing.Size(36, 37);
             this.ThirdVariable.TabIndex = 0;
             this.ThirdVariable.Text = "3";
+            this.ThirdVariable.Click += new System.EventHandler(this.ThirdVariable_Click);
             // 
             // label4
             // 
@@ -84,6 +87,7 @@
             this.label4.Size = new System.Drawing.Size(37, 37);
             this.label4.TabIndex = 0;
             this.label4.Text = "=";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // Result
             // 
@@ -94,6 +98,7 @@
             this.Result.Size = new System.Drawing.Size(36, 37);
             this.Result.TabIndex = 0;
             this.Result.Text = "4";
+            this.Result.Click += new System.EventHandler(this.Result_Click);
             // 
             // textBox1
             // 
@@ -104,6 +109,7 @@
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "*";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -114,6 +120,7 @@
             this.textBox2.TabIndex = 1;
             this.textBox2.Text = "+";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // Score
             // 
@@ -125,6 +132,7 @@
             this.Score.Size = new System.Drawing.Size(52, 55);
             this.Score.TabIndex = 0;
             this.Score.Text = "0";
+            this.Score.Click += new System.EventHandler(this.Score_Click);
             // 
             // label2
             // 
@@ -137,6 +145,7 @@
             this.label2.TabIndex = 0;
             this.label2.Tag = " ";
             this.label2.Text = "Score :";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Done
             // 
@@ -166,6 +175,7 @@
             this.inform.Name = "inform";
             this.inform.Size = new System.Drawing.Size(0, 24);
             this.inform.TabIndex = 3;
+            this.inform.Click += new System.EventHandler(this.inform_Click);
             // 
             // pictureBox1
             // 
