@@ -40,8 +40,6 @@
             this.TimeRem = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.Done = new System.Windows.Forms.Button();
-            this.Exit = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstVariable
@@ -165,26 +163,7 @@
             this.Done.TabIndex = 2;
             this.Done.Text = "Done";
             this.Done.UseVisualStyleBackColor = true;
-            // 
-            // Exit
-            // 
-            this.Exit.Location = new System.Drawing.Point(67, 334);
-            this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(75, 23);
-            this.Exit.TabIndex = 9;
-            this.Exit.Text = "Exit";
-            this.Exit.UseVisualStyleBackColor = true;
-            this.Exit.Click += new System.EventHandler(this.Exit_Click);
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(67, 22);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "Back";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.Done.Click += new System.EventHandler(this.Done_Click);
             // 
             // StartOperator
             // 
@@ -192,8 +171,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(924, 521);
-            this.Controls.Add(this.Exit);
-            this.Controls.Add(this.button4);
             this.Controls.Add(this.Done);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -230,7 +207,5 @@
         private System.Windows.Forms.Label TimeRem;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button Done;
-        private System.Windows.Forms.Button Exit;
-        private System.Windows.Forms.Button button4;
     }
 }

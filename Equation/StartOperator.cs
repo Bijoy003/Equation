@@ -26,9 +26,9 @@ namespace Equation
 
         int a = 28, b = 5, c =3 , op1 = 4, op2 = 4 , res;
 
-        private void Exit_Click(object sender, EventArgs e)
+        private void Done_Click(object sender, EventArgs e)
         {
-            Environment.Exit(0);
+
         }
 
         private void button4_Click(object sender, EventArgs e)
