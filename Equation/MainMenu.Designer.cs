@@ -41,10 +41,10 @@
             // 
             this.Exit.FlatAppearance.BorderSize = 0;
             this.Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Exit.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Bold);
+            this.Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold);
             this.Exit.Location = new System.Drawing.Point(339, 383);
             this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(271, 44);
+            this.Exit.Size = new System.Drawing.Size(270, 45);
             this.Exit.TabIndex = 0;
             this.Exit.Text = "Exit";
             this.Exit.UseVisualStyleBackColor = true;
@@ -56,10 +56,10 @@
             // 
             this.About.FlatAppearance.BorderSize = 0;
             this.About.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.About.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Bold);
+            this.About.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold);
             this.About.Location = new System.Drawing.Point(339, 333);
             this.About.Name = "About";
-            this.About.Size = new System.Drawing.Size(271, 44);
+            this.About.Size = new System.Drawing.Size(270, 45);
             this.About.TabIndex = 0;
             this.About.Text = "About";
             this.About.UseVisualStyleBackColor = true;
@@ -71,10 +71,10 @@
             // 
             this.Difficulty.FlatAppearance.BorderSize = 0;
             this.Difficulty.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Difficulty.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Bold);
+            this.Difficulty.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold);
             this.Difficulty.Location = new System.Drawing.Point(339, 283);
             this.Difficulty.Name = "Difficulty";
-            this.Difficulty.Size = new System.Drawing.Size(271, 44);
+            this.Difficulty.Size = new System.Drawing.Size(270, 45);
             this.Difficulty.TabIndex = 0;
             this.Difficulty.Text = "Difficulty";
             this.Difficulty.UseVisualStyleBackColor = true;
@@ -86,10 +86,10 @@
             // 
             this.Game_Mode.FlatAppearance.BorderSize = 0;
             this.Game_Mode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Game_Mode.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Bold);
+            this.Game_Mode.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold);
             this.Game_Mode.Location = new System.Drawing.Point(339, 233);
             this.Game_Mode.Name = "Game_Mode";
-            this.Game_Mode.Size = new System.Drawing.Size(271, 44);
+            this.Game_Mode.Size = new System.Drawing.Size(270, 45);
             this.Game_Mode.TabIndex = 0;
             this.Game_Mode.Text = "Game Mode";
             this.Game_Mode.UseVisualStyleBackColor = true;
@@ -101,10 +101,10 @@
             // 
             this.Start.FlatAppearance.BorderSize = 0;
             this.Start.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Start.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Bold);
+            this.Start.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold);
             this.Start.Location = new System.Drawing.Point(339, 183);
             this.Start.Name = "Start";
-            this.Start.Size = new System.Drawing.Size(271, 44);
+            this.Start.Size = new System.Drawing.Size(270, 45);
             this.Start.TabIndex = 0;
             this.Start.Text = "Start";
             this.Start.UseVisualStyleBackColor = true;

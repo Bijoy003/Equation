@@ -18,6 +18,24 @@ namespace Equation
             InitializeComponent();
             dif = di;
             mod = mo;
+            if(mod==1)
+            {
+                MissingOperator.FlatAppearance.BorderSize = 1;
+                MissingOperator.BackColor = Color.Gray;
+                MissingOperator.FlatAppearance.BorderColor = Color.Gray;
+            }
+            else if(mod==2)
+            {
+                MissingVariable.FlatAppearance.BorderSize = 1;
+                MissingVariable.BackColor = Color.Gray;
+                MissingVariable.FlatAppearance.BorderColor = Color.Gray;
+            }
+            else
+            {
+                MissingResult.FlatAppearance.BorderSize = 1;
+                MissingResult.BackColor = Color.Gray;
+                MissingResult.FlatAppearance.BorderColor = Color.Gray;
+            }
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -46,6 +64,80 @@ namespace Equation
         private void Exit_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
+        }
+
+        private void GameMode_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OperatorMouseEnter(object sender, EventArgs e)
+        {
+            MissingOperator.FlatAppearance.BorderSize = 1;
+            MissingOperator.BackColor = Color.Green;
+            MissingOperator.FlatAppearance.BorderColor = Color.Green;
+        }
+
+        private void VariableMouseEnter(object sender, EventArgs e)
+        {
+            MissingVariable.FlatAppearance.BorderSize = 1;
+            MissingVariable.BackColor = Color.Green;
+            MissingVariable.FlatAppearance.BorderColor = Color.Green;
+        }
+
+        private void ResultMouseEnter(object sender, EventArgs e)
+        {
+            MissingResult.FlatAppearance.BorderSize = 1;
+            MissingResult.BackColor = Color.Green;
+            MissingResult.FlatAppearance.BorderColor = Color.Green;
+        }
+
+        private void OperatorMouseLeave(object sender, EventArgs e)
+        {
+            if (mod == 1)
+            {
+                MissingOperator.FlatAppearance.BorderSize = 1;
+                MissingOperator.BackColor = Color.Gray;
+                MissingOperator.FlatAppearance.BorderColor = Color.Gray;
+            }
+            else
+            {
+                MissingOperator.FlatAppearance.BorderSize = 0;
+                MissingOperator.BackColor = Color.White;
+                MissingOperator.FlatAppearance.BorderColor = GameMode.DefaultBackColor;
+            }
+        }
+
+        private void VariableMouseLeave(object sender, EventArgs e)
+        {
+            if (mod == 2)
+            {
+                MissingVariable.FlatAppearance.BorderSize = 1;
+                MissingVariable.BackColor = Color.Gray;
+                MissingVariable.FlatAppearance.BorderColor = Color.Gray;
+            }
+            else
+            {
+                MissingVariable.FlatAppearance.BorderSize = 0;
+                MissingVariable.BackColor = Color.White;
+                MissingVariable.FlatAppearance.BorderColor = GameMode.DefaultBackColor;
+            }
+        }
+
+        private void ResultMouseLeave(object sender, EventArgs e)
+        {
+            if (mod == 3)
+            {
+                MissingResult.FlatAppearance.BorderSize = 1;
+                MissingResult.BackColor = Color.Gray;
+                MissingResult.FlatAppearance.BorderColor = Color.Gray;
+            }
+            else
+            {
+                MissingResult.FlatAppearance.BorderSize = 0;
+                MissingResult.BackColor = Color.White;
+                MissingResult.FlatAppearance.BorderColor = GameMode.DefaultBackColor;
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)

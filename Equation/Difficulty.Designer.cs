@@ -28,86 +28,80 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.HardButton = new System.Windows.Forms.Button();
+            this.MediumButton = new System.Windows.Forms.Button();
+            this.EasyButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.Exit = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button3
+            // HardButton
             // 
-            this.button3.Location = new System.Drawing.Point(415, 188);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Hard";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.HardButton.FlatAppearance.BorderSize = 0;
+            this.HardButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.HardButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold);
+            this.HardButton.Location = new System.Drawing.Point(344, 316);
+            this.HardButton.Name = "HardButton";
+            this.HardButton.Size = new System.Drawing.Size(270, 60);
+            this.HardButton.TabIndex = 3;
+            this.HardButton.Text = "Hard";
+            this.HardButton.UseVisualStyleBackColor = true;
+            this.HardButton.Click += new System.EventHandler(this.button3_Click);
+            this.HardButton.MouseEnter += new System.EventHandler(this.HardMouseEnter);
+            this.HardButton.MouseLeave += new System.EventHandler(this.HardMouseLeave);
             // 
-            // button2
+            // MediumButton
             // 
-            this.button2.Location = new System.Drawing.Point(415, 159);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Medium";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.MediumButton.FlatAppearance.BorderSize = 0;
+            this.MediumButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.MediumButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold);
+            this.MediumButton.Location = new System.Drawing.Point(344, 259);
+            this.MediumButton.Name = "MediumButton";
+            this.MediumButton.Size = new System.Drawing.Size(270, 60);
+            this.MediumButton.TabIndex = 4;
+            this.MediumButton.Text = "Medium";
+            this.MediumButton.UseVisualStyleBackColor = true;
+            this.MediumButton.Click += new System.EventHandler(this.button2_Click);
+            this.MediumButton.MouseEnter += new System.EventHandler(this.MediumMouseEnter);
+            this.MediumButton.MouseLeave += new System.EventHandler(this.MediumMouseLeave);
             // 
-            // button1
+            // EasyButton
             // 
-            this.button1.Location = new System.Drawing.Point(415, 130);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Easy";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.EasyButton.FlatAppearance.BorderSize = 0;
+            this.EasyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EasyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold);
+            this.EasyButton.Location = new System.Drawing.Point(344, 199);
+            this.EasyButton.Name = "EasyButton";
+            this.EasyButton.Size = new System.Drawing.Size(270, 60);
+            this.EasyButton.TabIndex = 5;
+            this.EasyButton.Text = "Easy";
+            this.EasyButton.UseVisualStyleBackColor = true;
+            this.EasyButton.Click += new System.EventHandler(this.button1_Click);
+            this.EasyButton.MouseEnter += new System.EventHandler(this.EasyMouseEnter);
+            this.EasyButton.MouseLeave += new System.EventHandler(this.EasyMouseLeave);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(392, 103);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(242, 57);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 13);
+            this.label1.Size = new System.Drawing.Size(504, 54);
             this.label1.TabIndex = 2;
             this.label1.Text = "Select Game Difficulty";
-            // 
-            // Exit
-            // 
-            this.Exit.Location = new System.Drawing.Point(102, 342);
-            this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(75, 23);
-            this.Exit.TabIndex = 7;
-            this.Exit.Text = "Exit";
-            this.Exit.UseVisualStyleBackColor = true;
-            this.Exit.Click += new System.EventHandler(this.Exit_Click);
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(102, 30);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "Back";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Difficulty
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(944, 501);
-            this.Controls.Add(this.Exit);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.HardButton);
+            this.Controls.Add(this.MediumButton);
+            this.Controls.Add(this.EasyButton);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Difficulty";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Difficulty";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -116,11 +110,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button HardButton;
+        private System.Windows.Forms.Button MediumButton;
+        private System.Windows.Forms.Button EasyButton;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button Exit;
-        private System.Windows.Forms.Button button4;
     }
 }
