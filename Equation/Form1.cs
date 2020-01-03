@@ -17,6 +17,9 @@ namespace Equation
         public Loading()
         {
             InitializeComponent();
+
+            
+
             timer1.Start();
             timer2.Start();
         }
@@ -59,6 +62,8 @@ namespace Equation
                         var f = new MainMenu(dif, mod);
                         this.Hide();
                         f.Show();
+                        timer1.Stop();
+                        timer2.Stop();
                     }
                 }
                 else
@@ -73,6 +78,13 @@ namespace Equation
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+
+            var f = new MainMenu(dif, mod);
+            this.Hide();
+            f.Show();
+            timer1.Stop();
+            timer2.Stop();
+
             int diff = (int)(pictureBox2.Location.Y - pictureBox3.Location.Y) - 58;
             diff = 140 - diff;
             
