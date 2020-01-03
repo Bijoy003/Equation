@@ -13,6 +13,8 @@ namespace Equation
     public partial class StartVariable : Form
     {
         public int dif, mod;
+        int a = 28, b = 5, c = 3, op1 = 4, op2 = 4, res;
+        Random rand = new Random();
         public StartVariable(int di,int mo)
         {
             InitializeComponent();
@@ -32,8 +34,109 @@ namespace Equation
             Environment.Exit(0);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Done_Click(object sender, EventArgs e)
         {
+
+        }
+
+        void setEquation()
+        {
+            //initialize the values here
+
+            a = rand.Next(1, 20);
+            MessageBox.Show(a.ToString());
+
+            //
+
+            if (op2 == 4 && b % c != 0)
+            {
+                b += (c - b % c);
+            }
+            if (op1 == 4 && a % b != 0)
+            {
+                a += (b - a % b);
+            }
+
+            if (op1 == 4 && op2 == 4)
+            {
+                int temp = a / b;
+                if (temp % c != 0)
+                {
+                    int rem = c - temp % c;
+                    a += rem * b;
+                }
+                //MessageBox.Show(b.ToString());
+                //MessageBox.Show(c.ToString());
+
+                res = a / b / c;
+
+                //MessageBox.Show(res.ToString());
+            }
+            else
+            {
+                int firstPart = 0, secondParet = 0;
+                if (op1 == 4)
+                {
+                    firstPart = a / b;
+                    if (op2 == 4)
+                    {
+                        res = firstPart / c;
+                    }
+                    if (op2 == 3)
+                    {
+                        res = firstPart * c;
+                    }
+                    if (op2 == 2)
+                    {
+                        res = firstPart - c;
+                    }
+                    if (op2 == 1)
+                    {
+                        res = firstPart * c;
+                    }
+                }
+                if (op1 == 3)
+                {
+                    firstPart = a * b;
+                    if (op2 == 4)
+                    {
+                        res = firstPart / c;
+                    }
+                    if (op2 == 3)
+                    {
+                        res = firstPart * c;
+                    }
+                    if (op2 == 2)
+                    {
+                        res = firstPart - c;
+                    }
+                    if (op2 == 1)
+                    {
+                        res = firstPart * c;
+                    }
+                }
+                if (op2 == 4)
+                {
+                    secondParet = b / c;
+                    if (op1 == 4)
+                    {
+                        res = a / firstPart;
+                    }
+                    if (op1 == 3)
+                    {
+                        res = a * firstPart;
+                    }
+                    if (op1 == 2)
+                    {
+                        res = a - firstPart;
+                    }
+                    if (op1 == 1)
+                    {
+                        res = a + firstPart;
+                    }
+                }
+
+            }
 
         }
     }
