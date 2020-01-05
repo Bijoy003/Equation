@@ -23,6 +23,11 @@ namespace Equation
             timer1.Start();
         }
 
+        //op1 = operator1 && op2 = operator2 which are unknown to user
+        // + = 1 
+        // - = 2
+        // * = 3
+        // / = 4
 
         int a = 28, b = 5, c =3 , op1 = 4, op2 = 4 , res;
         int speed = 2;
@@ -122,6 +127,7 @@ namespace Equation
                 inform.ForeColor = Color.Red;
             }
         }
+
         private void Done_MouseLeave(object sender, EventArgs e)
         {
             Done.FlatAppearance.BorderSize = 3;
@@ -134,13 +140,6 @@ namespace Equation
             Done.FlatAppearance.BorderSize = 0;
             Done.BackColor = Color.SkyBlue;
         }
-
-
-        //op1 = operator1 && op2 = operator2 which are unknown to user
-        // + = 1 
-        // - = 2
-        // * = 3
-        // / = 4
 
         void setEquation()
         {
