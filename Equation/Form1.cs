@@ -41,6 +41,11 @@ namespace Equation
 
         int loading = 0 , cnt = 1;
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void timer2_Tick(object sender, EventArgs e)
         {
             if (loading == 58 && cnt<6)
@@ -78,12 +83,14 @@ namespace Equation
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-
+            //PORTION TO COMMENT
+            /* 
             var f = new MainMenu(dif, mod);
             this.Hide();
             f.Show();
             timer1.Stop();
             timer2.Stop();
+            */
 
             int diff = (int)(pictureBox2.Location.Y - pictureBox3.Location.Y) - 58;
             diff = 140 - diff;
