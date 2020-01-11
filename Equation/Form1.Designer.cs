@@ -93,6 +93,7 @@
             this.label1.Size = new System.Drawing.Size(130, 28);
             this.label1.TabIndex = 4;
             this.label1.Text = "Loading 0%";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Loading
             // 
