@@ -184,16 +184,16 @@
     <value>True</value>
   </data>
   <data name="ScoreLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 25pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 20.25pt, style=Bold</value>
   </data>
   <data name="ScoreLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="ScoreLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>423, 176</value>
+    <value>435, 175</value>
   </data>
   <data name="ScoreLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 39</value>
+    <value>90, 31</value>
   </data>
   <data name="ScoreLabel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>

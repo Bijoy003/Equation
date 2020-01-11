@@ -27,9 +27,5 @@ namespace Equation
             f.Show();
         }
 
-        private void Exit_Click(object sender, EventArgs e)
-        {
-            Environment.Exit(0);
-        }
     }
 }
